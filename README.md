@@ -1,6 +1,6 @@
-# TripMate AI
+# TripBanau AI
 
-TripMate AI is a multi-agent travel planner built with FastAPI and LangGraph. It combines flight search, hotel research, itinerary generation, and an AI-written final travel plan in one web interface.
+TrioBanau AI is a multi-agent travel planner built with FastAPI and LangGraph. It combines flight search, hotel research, itinerary generation, and an AI-written final travel plan in one web interface.
 
 ## Features
 
