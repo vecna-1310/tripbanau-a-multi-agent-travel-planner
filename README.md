@@ -81,8 +81,8 @@ Request body:
 
 ```json
 {
-	"message": "Plan a 7 day Japan trip from Bangladesh with flights, hotels, and sightseeing.",
-	"thread_id": null
+  "message": "Plan a 7 day Japan trip from Bangladesh with flights, hotels, and sightseeing.",
+  "thread_id": null
 }
 ```
 
@@ -111,13 +111,3 @@ Successful responses include:
 ├── requirements.txt       # Python dependencies
 └── Dockerfile             # Container configuration
 ```
-
-## Notes
-
-- Flight availability and pricing depend on AviationStack response data and may be incomplete.
-- The default origin is Dhaka (`DAC`); set `DEFAULT_ORIGIN_IATA` to change it.
-- The PostgreSQL checkpointer is initialized when `backend.py` loads and creates the required LangGraph tables if needed.
-
-## License
-
-See [LICENSE](LICENSE).
